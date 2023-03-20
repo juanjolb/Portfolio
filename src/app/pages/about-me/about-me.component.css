@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.my-card-info {
+  background-color: #f2f2f2;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 10px;
+}
+.about-me-info {
+  text-align: center;
+}
+
+mat-card-content {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  gap: 20px;
+}
+
+.info-row {
+  display: flex;
+  place-items: center;
+  gap: 10px;
+}
+
+mat-icon {
+  color: #dd0031;
+}
+
+img {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .my-card-info {
+    flex-direction: column-reverse;
+  }
+}

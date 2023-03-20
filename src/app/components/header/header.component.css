@@ -1,0 +1,28 @@
+.header {
+  background-color: #dd0031;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+nav,
+ul {
+  height: 100%;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+mat-icon {
+  margin-right: 20px;
+}
