@@ -5,6 +5,9 @@
   font-weight: bold;
   letter-spacing: 2px;
 }
+.active {
+  border-bottom: 2px solid white;;
+}
 
 nav,
 ul {
@@ -18,11 +21,15 @@ ul {
   align-items: center;
   gap: 30px;
 }
-
-li {
+li:hover, mat-icon:hover {
+  scale: 1.1;
+}
+li, mat-icon {
+  transition: scale 0.5s ease-out;
+  padding: 5px 0;
+  cursor: pointer;
   list-style: none;
 }
-
 mat-icon {
   margin-right: 20px;
 }
