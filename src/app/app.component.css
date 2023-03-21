@@ -1,5 +1,12 @@
 .app-container {
   margin: 0 auto;
+  font-size: 1.2rem;
   max-width: 1000px;
   padding: 60px;
+}
+
+@media screen and (max-width: 720px) {
+  .app-container {
+    padding: 60px 20px;
+  }
 }
