@@ -49,6 +49,11 @@ mat-card-content {
   gap: 60px
 }
 
+.highlight-container a {
+  color: #DD0031;
+  text-decoration: none;
+}
+
 .highlight-item {
   display: flex;
   flex-direction: column;

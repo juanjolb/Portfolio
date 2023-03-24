@@ -16,17 +16,20 @@ import { MatCardModule } from '@angular/material/card';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatChipsModule } from '@angular/material/chips';
 
 //lottie
 import { LottieModule } from "ngx-lottie";
 import player from "lottie-web";
 import { FooterComponent } from './components/footer/footer.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { SkillsComponent } from './pages/skills/skills.component';
 export function playerFactory() {
   return player;
 }
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, AboutMeComponent, BreadcrumbComponent, FooterComponent],
+  declarations: [AppComponent, HeaderComponent, AboutMeComponent, BreadcrumbComponent, FooterComponent, ProjectsComponent, SkillsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -37,7 +40,8 @@ export function playerFactory() {
     MatButtonModule,
     MatCardModule,
     MatTooltipModule,
-    MatGridListModule
+    MatGridListModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
