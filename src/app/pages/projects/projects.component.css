@@ -46,3 +46,9 @@ button {
     color: white !important;
     background-color: #23282D !important;
 }
+
+@media screen and (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
