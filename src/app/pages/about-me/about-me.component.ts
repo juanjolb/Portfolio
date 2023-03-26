@@ -11,7 +11,7 @@ import { AnimationOptions, LottieComponent } from 'ngx-lottie';
 export class AboutMeComponent implements OnInit, OnDestroy {
 
   options: AnimationOptions = {
-    path: '/assets/animation.json',
+    path: 'assets/animation.json',
   };
 
   datesFormat: string[] = ['shortDate', 'dd-MM-YYYY', 'mediumDate', 'dd/MM/YYYY'];
